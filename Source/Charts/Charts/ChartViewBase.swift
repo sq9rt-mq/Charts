@@ -769,6 +769,10 @@ open class ChartViewBase: NSUIView, ChartDataProvider, AnimatorDelegate
         
         return true
     }
+
+		public var viewportJobs: Array<ViewPortJob> {
+			_viewportJobs
+		}
     
     internal var _viewportJobs = [ViewPortJob]()
     
